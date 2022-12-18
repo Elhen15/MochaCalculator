@@ -9,6 +9,9 @@ describe("Calculator", function() {
     });
     
     describe(".add", function(){
+        it("Should new test", function(){
+            expect(calculator.add(1,2)).to.equal(3);
+        });
         it("Should add two numbers if they are positive", function(){
             expect(calculator.add(1,2)).to.equal(3);
             expect(calculator.add(4,5)).to.equal(9);
