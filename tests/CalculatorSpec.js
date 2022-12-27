@@ -3,11 +3,12 @@
 var expect = require("chai").expect;
 var calculator = require("../Calculator");
 
-export function sleep(ms) {
+describe("Calculator", function() {
+  
+  function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
-describe("Calculator", function() {
+  
     it("Should exist", function(){        
         expect(calculator).to.not.be.undefined;
     });
