@@ -3,12 +3,20 @@
 var expect = require("chai").expect;
 var calculator = require("../Calculator");
 
+export function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 describe("Calculator", function() {
     it("Should exist", function(){        
         expect(calculator).to.not.be.undefined;
     });
     
     describe(".add", function(){
+        it("Should new test5", async () => {
+            await sleep(10000)
+            expect(calculator.add(1,2)).to.equal(3);
+        });
         it("Should new test4", function(){
             expect(calculator.add(1,2)).to.equal(3);
         });
