@@ -14,7 +14,11 @@ describe("Calculator", function() {
     });
     
     describe(".add", function(){
-        it("Should new test5", async () => {
+        it("yuval", function(){
+            expect(calculator.add(1,2)).to.equal(3);
+        });
+      
+      it("Should new test5", async () => {
             await sleep(10000)
             expect(calculator.add(1,2)).to.equal(3);
         });
