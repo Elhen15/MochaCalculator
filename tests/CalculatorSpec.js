@@ -9,6 +9,9 @@ describe("Calculator", function() {
     });
     
     describe(".add", function(){
+        it("Should new test4", function(){
+            expect(calculator.add(1,2)).to.equal(3);
+        });
         it("Should new test3", function(){
             expect(calculator.add(1,2)).to.equal(3);
         });
