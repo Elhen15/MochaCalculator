@@ -11,10 +11,6 @@ module.exports = {
 
         var substraction = 0;
 
-        for (var i = 1; i < arguments.length; i++) {
-            substraction -= arguments[i];
-        }
-
         return substraction + arguments[0];
     },
     multiply: function() {
