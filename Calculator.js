@@ -5,6 +5,7 @@ module.exports = {
         var sum = _.reduce(arguments, function(memo, numb) {
             return memo + numb;
         }, 0);
+        console.log("aaa")
         return sum;
     },
     substract: function() {
