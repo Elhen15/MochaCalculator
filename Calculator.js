@@ -6,6 +6,7 @@ module.exports = {
             return memo + numb;
         }, 0);
         console.log("aaa")
+        console.log("aaa")
         return sum;
     },
     substract: function() {
