@@ -7,6 +7,7 @@ module.exports = {
         }, 0);
         console.log("aaa")
         console.log("aaa")
+        console.log("PULL REQUEST TEST")
         return sum;
     },
     substract: function() {
