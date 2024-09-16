@@ -2,6 +2,7 @@ function add(...args) {
     let sum = args.reduce((memo, numb) => memo + numb, 0);
     console.log("aaa");
     console.log("aaa");
+    console.log("vbv");
     return sum;
 }
 
